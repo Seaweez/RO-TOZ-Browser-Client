@@ -1,0 +1,824 @@
+achievement_tbl = {
+	[300000] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Acquire Airdropped Reward!",
+		content = {
+			summary = "Airdropped title",
+			details = "Title Benefits\n\t- VIT +3\n\t- HIT +5"
+		},
+		resource = {},
+		reward = { title = 1048 },
+		score = 10
+	},
+	[300001] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Bronze Tier Pre-Sale Supporter",
+		content = {
+			summary = "Purchase Bronze Tier Pre-Sale Pack",
+			details = "The \'Glory\' title is available to players who purchased the Bronze Tier Pre-Sale Pack.\nTitle Benefits\n\t- All Stats +1"
+		},
+		resource = {},
+		reward = { title = 1049 },
+		score = 10
+	},
+	[300002] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Protector of Midgard",
+		content = {
+			summary = "Purchase Silver Tier Pre-Sale Pack",
+			details = "The \'Protector of Midgard\' title is available to players who purchased the Silver Tier Pre-Sale Pack.\nTitle Benefits\n\t- All Stats +1"
+		},
+		resource = {},
+		reward = { title = 1050 },
+		score = 10
+	},
+	[300003] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Noblesse",
+		content = {
+			summary = "Purchase Gold Tier Pre-Sale Pack",
+			details = "The \'Noblesse\' title is available to players who purchased the Gold Tier Pre-Sale Pack.\nTitle Benefits\n\t- All Stats +3"
+		},
+		resource = {},
+		reward = { title = 1051 },
+		score = 10
+	},
+	[300004] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Platinum Tier Pre-Sale Supporter",
+		content = {
+			summary = "Purchase Platinum Tier Pre-Sale Pack",
+			details = "The \'Founder\' title is available to players who purchased the Platinum Tier Pre-Sale Pack.\nTitle Benefits\n\t- All Stats +5"
+		},
+		resource = {},
+		reward = { title = 1052 },
+		score = 10
+	},
+	[300005] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Beta Tester",
+		content = {
+			summary = "Participated in CBT1",
+			details = "The \'Beta Tester\' title is available to players who participated in CBT1 and reached level 60."
+		},
+		resource = {},
+		reward = { title = 1053 },
+		score = 10
+	},
+	[300006] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Beater",
+		content = {
+			summary = "Participated in CBT1",
+			details = "The \'Beta Tester\' title is available to players who participated in CBT1 and reached level 90."
+		},
+		resource = {},
+		reward = { title = 1054 },
+		score = 10
+	},
+	[300007] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Safety Master",
+		content = {
+			summary = "Battle Pass SSI reward Step-19",
+			details = "The \'Safety Master\' title is available to players who have Battle Pass SSI reward Step-19.\nTitle Benefits\n\t- All Stats +3"
+		},
+		resource = {},
+		reward = { title = 1055 },
+		score = 10
+	},
+	[300008] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Assassin NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Assassin NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1056 },
+		score = 10
+	},
+	[300009] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Hunter NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Hunter NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1057 },
+		score = 10
+	},
+	[300010] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Knight NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Knight NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1058 },
+		score = 10
+	},
+	[300011] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Priest NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Priest NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1059 },
+		score = 10
+	},
+	[300012] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Blacksmith NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Blacksmith NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1060 },
+		score = 10
+	},
+	[300013] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Wizard NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Wizard NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1061 },
+		score = 10
+	},
+	[300014] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Land Owner I",
+		content = {
+			summary = "Land Owner I",
+			details = "Tier 1 bonus for land owner.\nTitle Benefits\n\t- All Stats + 3",
+		},
+		resource = {},
+		reward = { title = 1062 },
+		score = 0
+	},
+	[300015] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Land Owner II",
+		content = {
+			summary = "Land Owner II",
+			details = "Tier 2 bonus for land owner.\nTitle Benefits\n\t- All Stats + 4",
+		},
+		resource = {},
+		reward = { title = 1063 },
+		score = 0
+	},
+	[300016] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Land Owner III",
+		content = {
+			summary = "Land Owner III",
+			details = "Tier 3 bonus for land owner.\nTitle Benefits\n\t- All Stats + 5",
+		},
+		resource = {},
+		reward = { title = 1064 },
+		score = 0
+	},
+	[300017] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Frostbite",
+		content = {
+			summary = "Frostbite",
+			details = "The \'Frostbite\' title is available to players who have Battle Pass - Premium SS II reward Step-19.\nTitle Benefits\n\t- All Stats +3",
+		},
+		resource = {},
+		reward = { title = 1065 },
+		score = 0
+	},
+	[300018] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Starter",
+		content = {
+			summary = "Starter",
+			details = "The \'Starter\' title is available to players who have Starter Pack 2-2.\nTitle Benefits\n\t- All Stats +1 Exp & Drop +3%",
+		},
+		resource = {},
+		reward = { title = 1066 },
+		score = 0
+	},
+	[300019] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Monk NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Monk NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1067 },
+		score = 10
+	},
+	[300020] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Rogue NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Rogue NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1068 },
+		score = 10
+	},
+	[300021] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Alchemist NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Alchemist NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1069 },
+		score = 10
+	},
+	[300022] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Bard NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Bard/Dancer NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1070 },
+		score = 10
+	},
+	[300023] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Sage NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Sage NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1071 },
+		score = 10
+	},
+	[300024] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Crusader NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Crusader NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1072 },
+		score = 10
+	},
+	[300025] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Dancer NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Dancer NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1073 },
+		score = 10
+	},
+	[300026] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Snowbuilder",
+		content = {
+			summary = "Event Building Snowman",
+			details = "The \'Snowbuilder\' title available to players Participating in Event Building Snowman .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1074 },
+		score = 10
+	},
+	[300027] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Nose Artist",
+		content = {
+			summary = "Event Building Snowman",
+			details = "The \'Nose Artist\' title available to players Participating in Event Building Snowman .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1075 },
+		score = 10
+	},
+	[300028] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Chill Chaser",
+		content = {
+			summary = "Event Building Snowman",
+			details = "The \'Chill Chaser\' title available to players Participating in Event Building Snowman .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1076 },
+		score = 10
+	},
+	[300029] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Woodland Sculptor",
+		content = {
+			summary = "Event Building Snowman",
+			details = "The \'Woodland Sculptor\' title available to players Participating in Event Building Snowman .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1077 },
+		score = 10
+	},
+	[300030] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Topper Tailor",
+		content = {
+			summary = "Event Building Snowman",
+			details = "The \'Topper Tailor\' title available to players Participating in Event Building Snowman .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1078 },
+		score = 10
+	},
+	[300031] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Path Traveler I",
+		content = {
+			summary = "Path Dungeon",
+			details = "The \'Path Traveler I\'Title from Path Shop .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1079 },
+		score = 10
+	},
+	[300032] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Path Traveler II",
+		content = {
+			summary = "Path Dungeon",
+			details = "The \'Path Traveler II\'Title from Path Shop .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1080 },
+		score = 10
+	},
+	[300033] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Path Traveler III",
+		content = {
+			summary = "Path Dungeon",
+			details = "The \'Path Traveler III\'Title from Path Shop .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1081 },
+		score = 10
+	},
+	[300034] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Grand Heart",
+		content = {
+			summary = "Grand Heart",
+			details = "The \'Grand Heart\' title is available to players who have Battle Pass - Premium SS III reward Step-19.\nTitle Benefits\n\t- All Stats +3",
+		},
+		resource = {},
+		reward = { title = 1082 },
+		score = 0
+	},
+	[300035] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "The New journey",
+		content = {
+			summary = "The New journey",
+			details = "The \'The New journey\' title is available to players use Top Up Milestone 300 ION\nTitle Benefits\n\t- Nothing",
+		},
+		resource = {},
+		reward = { title = 1083 },
+		score = 0
+	},
+	[300036] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Divided",
+		content = {
+			summary = "Divided",
+			details = "The \'Divided\' Title from Guild Shop \nTitle Benefits\n\t- Nothing",
+		},
+		resource = {},
+		reward = { title = 1084 },
+		score = 0
+	},
+	[300037] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Splash Mania",
+		content = {
+			summary = "Splash Mania",
+			details = "The \'Splash Mania\' title is available to players who have Battle Pass - Premium SS IV reward Step-19.\nTitle Benefits\n\t- All Stats +3",
+		},
+		resource = {},
+		reward = { title = 1085 },
+		score = 0
+	},
+	[300038] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Ninja NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Ninja NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1086 },
+		score = 10
+	},
+	[300039] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Gunslinger NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Gunslinger NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1087 },
+		score = 10
+	},
+	[300040] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Teakwondo Master NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Teakwondo Master NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1088 },
+		score = 10
+	},
+	[300041] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Soul Linker NO.1",
+		content = {
+			summary = "Rank 1 Level Rush Event",
+			details = "The \'Soul Linker NO.1\' title is available to players who are Winner of Level Rush Event .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1089 },
+		score = 10
+	},
+	[300042] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Prontera Adventure",
+		content = {
+			summary = "Prontera Adventure",
+			details = "The \'Prontera adventure\' title is available to players who have Battle Pass - Class .\nTitle Benefits\n\t- Exp & Drop +3%"
+		},
+		resource = {},
+		reward = { title = 1090 },
+		score = 10
+	},
+	[300043] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "PRONTERA",
+		content = {
+			summary = "PRONTERA",
+			details = "The \'PRONTERA\' title is available to players who have Battle Pass - Class .\nTitle Benefits\n\t- All stats +3"
+		},
+		resource = {},
+		reward = { title = 1091 },
+		score = 10
+	},
+	[300044] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Welcome to Midgard",
+		content = {
+			summary = "Welcome to Midgard",
+			details = "The \'Welcome to Midgard\' title is available to players who have TOPUP Milestone 300ION .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1092 },
+		score = 10
+	},
+	[300045] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "MVP Hunter",
+		content = {
+			summary = "MVP Hunter",
+			details = "The \'MVP Hunter\' title Event MVP Hunting .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1093 },
+		score = 10
+	},
+	[300046] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "King of Hunter",
+		content = {
+			summary = "King of Hunter",
+			details = "The \'King of Hunter\' title Event MVP Hunting .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1094 },
+		score = 10
+	},
+	[300047] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Ultimate Hunter",
+		content = {
+			summary = "Ultimate Hunter",
+			details = "The \'Ultimate Hunter\' title Event MVP Hunting .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1095 },
+		score = 10
+	},
+	[300048] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Heart Hunter",
+		content = {
+			summary = "Heart Hunter",
+			details = "The \'Heart Hunter\' title Event MVP Hunting .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1096 },
+		score = 10
+	},
+	[300049] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Old Glastheim Destroyer",
+		content = {
+			summary = "Old Glastheim Destroyer",
+			details = "The \'Old Glastheim Destroyer\' title is available to players who have TOPUP Milestone 300ION .\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1097 },
+		score = 10
+	},
+	[300050] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "The Beginner",
+		content = {
+			summary = "The Beginner",
+			details = "The \'title is available to players who have Bronze Package Pre-Sale Pack.\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1098 },
+		score = 10
+	},
+	[300051] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "The Protector",
+		content = {
+			summary = "The Protector",
+			details = "The \'title is available to players who have Silver Package Pre-Sale Pack.\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1099 },
+		score = 10
+	},
+	[300052] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Guardian of Midgard",
+		content = {
+			summary = "Guardian of Midgard",
+			details = "The \'title is available to players who have Gold Package Pre-Sale Pack.\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1100 },
+		score = 10
+	},
+	[300053] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Uncrowned King",
+		content = {
+			summary = "Uncrowned King",
+			details = "The \'title is available to players who have Platinium Package Pre-Sale Pack.\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1101 },
+		score = 10
+	},
+	[300054] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "King of Midgard",
+		content = {
+			summary = "King of Midgard",
+			details = "The \'title is available to players who have Diamond Package Pre-Sale Pack.\nTitle Benefits\n\t- Nothing"
+		},
+		resource = {},
+		reward = { title = 1102 },
+		score = 10
+	},
+}
+
+function main()
+	for achieveID, achieveInfo in pairs(achievement_tbl) do
+		result, msg = InsertAchieveInfo(achieveID, achieveInfo.title, achieveInfo.content.summary, achieveInfo.content.details, achieveInfo.score)
+		if not result then
+			return false, msg
+		end
+		if nil ~= achieveInfo.resource then
+			for index, resource in ipairs(achieveInfo.resource) do
+				if nil ~= resource.shortcut then
+					shortcut = resource.shortcut
+				else
+					shortcut = -1
+				end
+				if 0 == achieveInfo.UI_Type then
+					result, msg = InsertAchieveResource(achieveID, resource.text, 0, shortcut)
+				elseif 1 == achieveInfo.UI_Type then
+					result, msg = InsertAchieveResource(achieveID, resource.text, resource.count, shortcut)
+				end
+				if not result then
+					return false, msg
+				end
+			end
+		end
+		if nil ~= achieveInfo.reward then
+			if nil ~= achieveInfo.reward.item then
+				result, msg = InsertAchieveRewardItem(achieveID, achieveInfo.reward.item)
+			end
+			if nil ~= achieveInfo.reward.title then
+				result, msg = InsertAchieveRewardTitle(achieveID, achieveInfo.reward.title)
+				if not result then
+					return false, msg
+				end
+			end
+			if nil ~= achieveInfo.reward.buff then
+				result, msg = InsertAchieveRewardBuff(achieveID, achieveInfo.reward.buff)
+				if not result then
+					return false, msg
+				end
+			end
+		end
+		result, msg = InsertAchieveUIType(achieveID, achieveInfo.UI_Type, achieveInfo.group)
+		if not result then
+			return false, msg
+		end
+		result, msg = SetAchieveIDByTab(achieveID, achieveInfo.major, achieveInfo.minor)
+		if not result then
+			return false, msg
+		end
+	end
+	return true, "good"
+end

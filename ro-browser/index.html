@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9, user-scalable=no">
+        <title>ZERO - RO</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    </head>
+    <body>
+        <script>
+            window.addEventListener("load", (event) => {
+                window.ROConfig = {
+                    development: false,
+                    remoteClient:  "https://client.zero-ro.net",
+                    servers: [
+                        {
+                            display: 'Tales-Of-ZERO-RO',
+                            desc: "Tales-Of-ZERO-RO",
+                            address: '127.0.0.1',
+                            port: 6900,
+                            version: 55,
+                            langtype: 5,
+                            packetver: 20211103,
+                            forceUseAddress: false,
+                            socketProxy: "wss://proxy.zero-ro.net:8443",
+                            packetKeys: false
+                        },
+                    ],
+                    packetDump:  false,
+                    skipServerList:  true,
+                    skipIntro:       true,
+                    clientVersionMode: '20211103.20240728',
+                    plugins: {},
+                    clientHash: null,
+                    enableCashShop: true,
+                    enableBank: true,
+                    enableMapName: true,
+                    enableRefineUI: true,
+                    enableDmgSuffix: false,
+                    enableCheckAttendance: true,
+                    CameraMaxZoomOut: 3,
+                    loadLua: true
+                };
+
+                script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.src = 'Online-202407282.js';
+                document.getElementsByTagName('body')[0].appendChild(script);
+            });
+        </script>
+    </body>
+</html>

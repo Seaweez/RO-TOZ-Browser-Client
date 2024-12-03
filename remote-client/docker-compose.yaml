@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  remote-client-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: server
+    volumes:
+      - ./:/var/www/html
+    ports:
+        - "8081:80"
+    restart: unless-stopped
+    network_mode: bridge
